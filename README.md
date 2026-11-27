@@ -14,7 +14,9 @@ Both templates append the answers to a `;`-separated CSV (`subject;item;answer`)
 1. Open the `.sce` file and replace the placeholder items in the `CONFIGURATION` block. The number of items is read from the arrays.
 2. Create a new experiment in Presentation pointing to the scenario.
 3. Set the two EXPARAM string parameters below.
-4. VAS only: in **Settings → Response**, add the mouse as a response device (left button = *Pulsante/Button 0*) and press **Use Mouse** so it appears among the axis devices.
+4. Set the response devices in **Settings → Response**:
+   - VAS: add the mouse (left button = *Pulsante/Button 0*) and press **Use Mouse** so it appears among the axis devices.
+   - Questionnaire: add the keyboard keys 1–7 as active buttons, in this order.
 5. Run.
 
 Items of published questionnaires are not included, as they are protected by their authors' copyright: add yours with the proper permission and citation.
