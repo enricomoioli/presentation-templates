@@ -1,0 +1,4 @@
+# Participant data: never commit
+Logfiles/
+*.log
+*_results.csv
